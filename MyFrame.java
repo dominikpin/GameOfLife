@@ -102,8 +102,8 @@ public class MyFrame extends JFrame implements ActionListener, KeyListener {
     public void actionPerformed(ActionEvent e) {
         this.requestFocusInWindow();
         JButton button = ((JButton) e.getSource());
-        String panelName = button.getName();
-        String[] stringCoordinates = panelName.split(",");
+        String buttonName = button.getName();
+        String[] stringCoordinates = buttonName.split(",");
         int[][] array = Main.getMyArray();
         if (button.getBackground() == Color.BLACK) {
             button.setBackground(Color.WHITE);
