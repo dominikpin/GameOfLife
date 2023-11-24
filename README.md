@@ -17,6 +17,7 @@ To install the game, follow these steps:
 Download the GameOfLife.jar file.
 Open the command prompt and navigate to the directory containing the .jar file.
 Run the command: java -jar GameOfLife.jar
+
 Alternatively:
 
 Download Run.bat and GameOfLife.jar file.
