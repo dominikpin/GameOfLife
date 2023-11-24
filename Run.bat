@@ -1,1 +1,1 @@
-java --enable-preview -jar GameOfLife.jar
+java -jar GameOfLife.jar

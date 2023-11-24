@@ -76,7 +76,7 @@ public class MyFrame extends JFrame implements ActionListener, KeyListener {
         if (!isInProgress) {
             pausedLabel = new JLabel("PAUSED");
             pausedLabel.setName("PAUSED");
-            this.add(pausedLabel, BorderLayout.NORTH);
+            this.add(pausedLabel, BorderLayout.SOUTH);
             pausedLabel.setFont(pausedLabel.getFont().deriveFont(50.0f));
             pausedLabel.setForeground(Color.RED);
             pausedLabel.setOpaque(false);
