@@ -19,7 +19,6 @@ public class MyFrame extends JFrame implements ActionListener, KeyListener {
     private JLabel pausedLabel;
 
     public MyFrame(int sizeY, int sizeX, int RESIZE) {
-        JFrame frame = new JFrame();    
         this.setTitle("Game Of Life");
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setResizable(false);
